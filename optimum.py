@@ -1,14 +1,17 @@
 import pulp
 
 # Define data
-courses = ['A', 'B', 'C', 'D', 'E']
+courses = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 time_slots = [1, 2, 3]
 overlap = {
     ('A', 'B'): 10,
     ('A', 'C'): 5,
     ('B', 'D'): 8,
     ('C', 'E'): 7,
-    ('D', 'E'): 3
+    ('D', 'E'): 3,
+    ('F', 'G'): 5,
+    ('A', 'F'): 1
+
 }
 
 # Initialize the problem
@@ -35,9 +38,21 @@ for (c1, c2) in overlap:
 # Solve the problem
 prob.solve()
 
+print(prob)
 # Output the results
+
+"""
 print(f"Status: {pulp.LpStatus[prob.status]}")
-for c in courses:
+for c in courses
     for t in time_slots:
         if pulp.value(x[c, t]) == 1:
             print(f"Course {c} is scheduled in time slot {t}")
+"""
+
+for t in time_slots:
+    print("Courses ", end='')
+    for c in courses:
+        if pulp.value(x[c, t]) == 1:
+            print(c + ', ', end='')
+    print("are scheduled for time " + str(t))
+
