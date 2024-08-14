@@ -37,8 +37,6 @@ for (c1, c2) in overlap:
 
 # Solve the problem
 prob.solve()
-
-print(prob)
 # Output the results
 
 """
@@ -55,4 +53,5 @@ for t in time_slots:
         if pulp.value(x[c, t]) == 1:
             print(c + ', ', end='')
     print("are scheduled for time " + str(t))
+
 
