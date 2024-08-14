@@ -1,0 +1,43 @@
+Semester,Academic Year,Course ID Number,Subject ,Course Number,Section,Course Type,Enrollment as of Add Date,# majored in STEM,Days,Start Time,End Time,Enrollment End of Term,Enrollment as of Census
+Spring,2021-2022,2067,BIO,105,1-2,Laboratory,9,2,R,01:30pm,04:25pm,16,16
+Spring,2021-2022,2069,BIO,105,2-2,Laboratory,7,2,R,04:30pm,07:25pm,16,16
+Spring,2021-2022,2066,BIO,105,1-1,Laboratory,13,4,T,01:30pm,04:25pm,16,16
+Spring,2021-2022,2068,BIO,105,2-1,Laboratory,12,4,T,04:30pm,07:25pm,16,16
+Spring,2021-2022,2064,BIO,105,1,Lecture,22,6,TR,10:15am,11:40am,32,32
+Spring,2021-2022,2065,BIO,105,2,Lecture,21,6,TR,01:30pm,02:55pm,32,32
+Spring,2021-2022,2072,BIO,110,1-2,Laboratory,8,1,R,01:30pm,04:25pm,15,16
+Spring,2021-2022,2071,BIO,110,1-1,Laboratory,7,2,T,01:30pm,04:25pm,17,16
+Spring,2021-2022,2070,BIO,110,1,Lecture,15,3,R,07:30pm,10:25pm,32,32
+Spring,2021-2022,2075,BIO,130,1-1,Laboratory,6,2,M,03:15pm,06:10pm,9,9
+Spring,2021-2022,2076,BIO,130,1-2,Laboratory,13,7,T,01:30pm,04:25pm,17,17
+Spring,2021-2022,2077,BIO,130,2-1,Laboratory,12,8,R,08:30am,11:25am,16,16
+Spring,2021-2022,2078,BIO,130,2-2,Laboratory,13,9,R,01:30pm,04:25pm,16,16
+Spring,2021-2022,2073,BIO,130,1,Lecture,20,10,MWF,11:00am,11:55am,26,26
+Spring,2021-2022,2074,BIO,130,2,Lecture,25,17,MWF,01:30pm,02:25pm,32,32
+Spring,2021-2022,2142,CHEM,120,1,Lecture,33,11,MWF,08:30am,09:25am,35,36
+Spring,2021-2022,2143,CHEM,120,2,Lecture,26,13,MWF,11:00am,11:55am,27,28
+Spring,2021-2022,2150,CHEM,150,0,Lecture,4,3,W,03:00pm,04:30pm,5,6
+Spring,2021-2022,2146,CHEM,120L,3,Laboratory,7,3,W,01:30pm,04:25pm,8,8
+Spring,2021-2022,2147,CHEM,120L,4,Laboratory,10,3,R,08:30am,11:25am,12,12
+Spring,2021-2022,2145,CHEM,120L,2,Laboratory,13,4,T,01:30pm,04:25pm,13,14
+Spring,2021-2022,2144,CHEM,120L,1,Laboratory,12,5,T,08:30am,11:25am,11,12
+Spring,2021-2022,2148,CHEM,120L,5,Laboratory,17,9,R,01:30pm,04:25pm,18,18
+Spring,2021-2022,2312,MATH,110,2-1,Additional Meeting Time,13,1,T,10:15am,11:40am,16,17
+Spring,2021-2022,2309,MATH,110,1,Lecture,10,2,MWF,08:30am,09:25am,13,14
+Spring,2021-2022,2311,MATH,110,2,Lecture,13,2,MWF,09:45am,10:40am,15,16
+Spring,2021-2022,2310,MATH,110,1-1,Additional Meeting Time,10,3,T,08:30am,09:55am,12,13
+Spring,2021-2022,2313,MATH,120,1,Lecture,7,6,MWF,01:30pm,02:25pm,11,11
+Spring,2021-2022,2314,MATH,120,1-1,Additional Meeting Time,7,6,T,01:30pm,02:55pm,11,11
+Spring,2021-2022,2315,MATH,120,2,Lecture,29,12,MWF,09:45am,10:40am,33,33
+Spring,2021-2022,2316,MATH,120,2-1,Additional Meeting Time,29,12,R,08:30am,09:55am,33,33
+Spring,2021-2022,2480,PHYS,115,0,Lecture,3,2,MWF,09:45am,10:40am,10,11
+Spring,2021-2022,2483,PHYS,117,0,Lecture,13,8,MWF,11:00am,11:55am,15,16
+Spring,2021-2022,2486,PHYS,125,0,Lecture,2,2,MWF,12:15pm,01:10pm,16,17
+Spring,2021-2022,2489,PHYS,240,0,Lecture,2,2,MWF,01:30pm,02:25pm,5,4
+Spring,2021-2022,2482,PHYS,115L,2,Laboratory,1,0,T,01:30pm,04:25pm,2,2
+Spring,2021-2022,2481,PHYS,115L,1,Laboratory,2,2,T,08:30am,11:25am,8,9
+Spring,2021-2022,2484,PHYS,117L,1,Laboratory,8,4,T,08:30am,11:25am,11,12
+Spring,2021-2022,2485,PHYS,117L,2,Laboratory,5,4,T,01:30pm,04:25pm,4,4
+Spring,2021-2022,2488,PHYS,125L,2,Laboratory,2,2,R,01:30pm,04:25pm,13,13
+Spring,2021-2022,2490,PHYS,240L,0,Laboratory,2,2,R,01:30pm,04:25pm,6,5
+Spring,2021-2022,2487,PHYS,125L,1,Laboratory,0,0,R,08:30am,11:25am,3,4

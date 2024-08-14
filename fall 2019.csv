@@ -1,0 +1,63 @@
+Semester,Academic Year,Course ID Number,Subject ,Course Number,Section,Course Type,Enrollment as of Add Date,# majored in STEM,Days,Start Time,End Time,Enrollment End of Term,Enrollment as of Census
+Fall ,2019-2020,1415,BIO,105,1-1,Laboratory,18,2,T,01:30pm,04:25pm,18,18
+Fall ,2019-2020,1416,BIO,105,1-2,Laboratory,11,3,R,01:30pm,04:25pm,17,17
+Fall ,2019-2020,1418,BIO,105,2-1,Laboratory,18,3,T,08:30am,11:25am,19,19
+Fall ,2019-2020,1419,BIO,105,2-2,Laboratory,15,4,R,08:30am,11:25am,16,17
+Fall ,2019-2020,1414,BIO,105,1,Lecture,29,5,TR,08:30am,09:55am,35,35
+Fall ,2019-2020,1417,BIO,105,2,Lecture,33,7,TR,01:30pm,02:55pm,35,36
+Fall ,2019-2020,1425,BIO,115,2-2,Laboratory,15,4,R,08:30am,11:25am,17,17
+Fall ,2019-2020,1422,BIO,115,1-2,Laboratory,14,5,T,01:30pm,04:25pm,15,17
+Fall ,2019-2020,1421,BIO,115,1-1,Laboratory,13,7,M,03:00pm,05:55pm,17,17
+Fall ,2019-2020,1424,BIO,115,2-1,Laboratory,13,9,T,08:30am,11:25am,16,16
+Fall ,2019-2020,1420,BIO,115,1,Lecture,27,12,MWF,09:35am,10:30am,32,34
+Fall ,2019-2020,1423,BIO,115,2,Lecture,28,13,TR,01:30pm,02:55pm,33,33
+Fall ,2019-2020,1427,BIO,130,1-1,Laboratory,15,9,M,03:00pm,05:55pm,17,17
+Fall ,2019-2020,1428,BIO,130,1-2,Laboratory,16,13,T,01:30pm,04:25pm,18,18
+Fall ,2019-2020,1426,BIO,130,1,Lecture,31,22,MWF,09:35am,10:30am,35,35
+Fall ,2019-2020,1633,CHEM,120,1,Lecture,21,10,MWF,08:30am,09:25am,22,22
+Fall ,2019-2020,1635,CHEM,120,3,Lecture,21,12,MWF,10:40am,11:35am,24,24
+Fall ,2019-2020,1634,CHEM,120,2,Lecture,33,14,MWF,09:35am,10:30am,32,33
+Fall ,2019-2020,1642,CHEM,130,0,Lecture,20,12,MWF,09:35am,10:30am,21,21
+Fall ,2019-2020,1638,CHEM,120L,3,Laboratory,9,2,T,01:30pm,04:25pm,9,9
+Fall ,2019-2020,1636,CHEM,120L,1,Laboratory,13,6,W,01:55pm,04:50pm,14,14
+Fall ,2019-2020,1639,CHEM,120L,4,Laboratory,8,6,R,08:30am,11:25am,11,11
+Fall ,2019-2020,1641,CHEM,120L,6,Laboratory,14,6,F,01:55pm,04:50pm,15,15
+Fall ,2019-2020,1637,CHEM,120L,2,Laboratory,15,7,T,08:30am,11:25am,14,15
+Fall ,2019-2020,1640,CHEM,120L,5,Laboratory,15,8,R,01:30pm,04:25pm,15,15
+Fall ,2019-2020,1643,CHEM,130L,1,Laboratory,11,6,T,01:30pm,04:25pm,12,12
+Fall ,2019-2020,1947,CHEM,130L,2,Laboratory,9,6,W,01:55pm,04:50pm,9,9
+Fall ,2019-2020,1538,MATH,110,4-1,Additional Meeting Time,5,1,R,01:30pm,02:55pm,6,6
+Fall ,2019-2020,1539,MATH,110,4-2,Additional Meeting Time,3,1,R,03:05pm,04:30pm,3,3
+Fall ,2019-2020,1529,MATH,110,1-1,Additional Meeting Time,15,2,T,08:30am,09:55am,18,18
+Fall ,2019-2020,1532,MATH,110,2-1,Additional Meeting Time,13,2,R,08:30am,09:55am,13,13
+Fall ,2019-2020,1537,MATH,110,4,Lecture,8,2,MWF,03:00pm,03:55pm,9,9
+Fall ,2019-2020,1533,MATH,110,2-2,Additional Meeting Time,13,3,R,10:05am,11:30am,14,16
+Fall ,2019-2020,1535,MATH,110,3-1,Additional Meeting Time,14,3,R,01:30pm,02:55pm,14,15
+Fall ,2019-2020,1536,MATH,110,3-2,Additional Meeting Time,15,4,R,03:05pm,04:30pm,17,17
+Fall ,2019-2020,1530,MATH,110,1-2,Additional Meeting Time,15,5,T,10:05am,11:30am,16,16
+Fall ,2019-2020,1531,MATH,110,2,Lecture,26,5,MWF,09:35am,10:30am,27,29
+Fall ,2019-2020,1527,MATH,110,1,Lecture,29,7,MWF,08:30am,09:25am,34,34
+Fall ,2019-2020,1534,MATH,110,3,Lecture,29,7,MWF,10:40am,11:35am,31,32
+Fall ,2019-2020,1544,MATH,114,2-1,Additional Meeting Time,17,1,T,01:30pm,02:55pm,13,14
+Fall ,2019-2020,1542,MATH,114,1-2,Additional Meeting Time,11,3,T,01:30pm,02:55pm,11,11
+Fall ,2019-2020,1541,MATH,114,1-1,Additional Meeting Time,12,4,T,10:05am,11:30am,12,12
+Fall ,2019-2020,1545,MATH,114,2-2,Additional Meeting Time,19,6,T,03:05pm,04:30pm,19,19
+Fall ,2019-2020,1540,MATH,114,1,Lecture,23,7,MWF,10:40am,11:35am,23,23
+Fall ,2019-2020,1543,MATH,114,2,Lecture,36,7,MWF,03:00pm,03:55pm,32,33
+Fall ,2019-2020,1548,MATH,120,1-2,Additional Meeting Time,12,2,T,03:05pm,04:30pm,16,16
+Fall ,2019-2020,1550,MATH,120,2-1,Additional Meeting Time,8,2,W,04:05pm,05:30pm,11,10
+Fall ,2019-2020,1554,MATH,120,2-2,Additional Meeting Time,6,4,W,05:40pm,07:05pm,6,6
+Fall ,2019-2020,1549,MATH,120,2,Lecture,14,6,TR,03:05pm,04:30pm,17,16
+Fall ,2019-2020,1547,MATH,120,1-1,Additional Meeting Time,16,8,T,01:30pm,02:55pm,18,18
+Fall ,2019-2020,1546,MATH,120,1,Lecture,28,10,MWF,01:55pm,02:50pm,34,34
+Fall ,2019-2020,1551,MATH,128,0,Lecture,21,8,MWF,10:40am,11:35am,21,22
+Fall ,2019-2020,1570,PHYS,110,2,Lecture,10,3,MWF,01:55pm,02:50pm,11,11
+Fall ,2019-2020,1569,PHYS,110,1,Lecture,20,8,MWF,10:40am,11:35am,25,25
+Fall ,2019-2020,1574,PHYS,115,0,Lecture,5,3,MWF,09:35am,10:30am,16,16
+Fall ,2019-2020,1580,PHYS,125,0,Lecture,4,3,MWF,11:45am,12:40pm,7,7
+Fall ,2019-2020,1571,PHYS,110L,1,Laboratory,7,2,M,03:00pm,05:55pm,8,8
+Fall ,2019-2020,1572,PHYS,110L,2,Laboratory,12,4,T,08:30am,11:25am,16,16
+Fall ,2019-2020,1573,PHYS,110L,3,Laboratory,11,5,T,01:30pm,04:25pm,12,12
+Fall ,2019-2020,1575,PHYS,115L,1,Laboratory,1,1,R,08:30am,11:25am,5,5
+Fall ,2019-2020,1576,PHYS,115L,2,Laboratory,4,2,R,01:30pm,04:25pm,11,11
+Fall ,2019-2020,1581,PHYS,125L,1,Laboratory,4,3,T,08:30am,11:25am,7,7

@@ -55,3 +55,4 @@ for t in time_slots:
     print("are scheduled for time " + str(t))
 
 
+#what is the best way to live life, Is it to code all day and sleep all night, or to sleep all day and code all night?
