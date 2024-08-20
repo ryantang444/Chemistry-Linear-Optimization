@@ -31,7 +31,6 @@ def read_entire_school_year(filename):
     print('Field names are:' + ', '.join(field for field in fields))
 
 
-# printing first 5 rows
     print('Spring 2020')
     for row in rows:
         # parsing each column of a row
@@ -108,6 +107,11 @@ def extract_co_enrollment_pairs(filename):
 
 
 
+def extract_time_slots(filename):
+    df = pd.read_csv(filename)
+    df['Time Slot'] = df['Days'] + ' ' + df['Start Time'] + '-' + df['End Time']
+    time_slots = df['Time Slot'].unique()
+    return time_slots
 
 def get_coenrollment_count(course1, course2, term, co_enrollment_file):
   """Retrieves the co-enrollment count for a given course pair and term.
@@ -123,7 +127,7 @@ def get_coenrollment_count(course1, course2, term, co_enrollment_file):
   else:
     return 0
  
-def analyze_overlaps(pairs, overlap_dict):
+def analyze_overlaps(pairs, overlap_dict, term):
   """Analyzes overlaps between course pairs based on co-enrollment counts.
   Returns:
     A list of tuples containing course pairs and their total co-enrollment count for Spring 2023.
@@ -142,7 +146,7 @@ def analyze_overlaps(pairs, overlap_dict):
 def get_overlap(filename, term='Spring 2023'):
     #Creates a dictionary for co-enrollment overlaps for a specific term.
     overlap = {}
-    term_index = {'Spring 2023': 2, 'Spring 2022': 3, 'Spring 2020': 4}  # Map term to column index
+    term_index = {'Spring 2023': 1, 'Spring 2022': 2, 'Spring 2020': 3}  # Map term to column index
     
     with open(filename, 'r') as csvfile:
         csvreader = csv.reader(csvfile)
@@ -164,22 +168,28 @@ filename_spring_2023 = "spring 2023.csv"
 filename_co_enrollment = "spring co enrollment.csv"
 pairs = extract_co_enrollment_pairs(filename_co_enrollment)
 
-
 # Define the course pairs and the overlap dictionary
 filename_co_enrollment = "spring co enrollment.csv"
 overlap_dict = get_overlap(filename_co_enrollment, term='Spring 2022')
 
 # List of courses (extract them from the dictionary keys)
 courses = list(set([course for pair in overlap_dict.keys() for course in pair]))
+print("\n overlap dict", overlap_dict)
 
 # Time slots for scheduling
-time_slots = [1, 2, 3]
+time_slots_file = extract_time_slots(filename_spring_2023)
+time_slots_array = []
+for time in time_slots_file:
+  time_slots_array.append(time)
+print(time_slots_array)
+
+#time_slots = [1, 2, 3, 4, 5, 6]
 
 # Initialize the problem
 prob = pulp.LpProblem("Course_Scheduling", pulp.LpMinimize)
 
 # Define variables
-x = pulp.LpVariable.dicts("x", ((c, t) for c in courses for t in time_slots), cat='Binary')
+x = pulp.LpVariable.dicts("x", ((c, t) for c in courses for t in time_slots_array), cat='Binary')
 
 # Define auxiliary variables to capture overlap in the same time slot
 z = pulp.LpVariable.dicts("z", overlap_dict.keys(), lowBound=0, cat='Continuous')
@@ -189,21 +199,17 @@ prob += pulp.lpSum(overlap_dict[(c1, c2)] * z[(c1, c2)] for (c1, c2) in overlap_
 
 # Constraints: Each course is scheduled exactly once
 for c in courses:
-    prob += pulp.lpSum(x[c, t] for t in time_slots) == 1
+    prob += pulp.lpSum(x[c, t] for t in time_slots_array) == 1
 
 # Constraints: Capture overlap in the same time slot
 for (c1, c2) in overlap_dict:
-    for t in time_slots:
+    for t in time_slots_array:
         prob += z[(c1, c2)] >= x[c1, t] + x[c2, t] - 1
 
 # Solve the problem
 prob.solve()
 
 # Output the results
-for t in time_slots:
+for t in time_slots_array:
     scheduled_courses = [c for c in courses if pulp.value(x[c, t]) == 1]
     print(f"Courses {', '.join(scheduled_courses)} are scheduled for time slot {t}")
-
-#what is the best way to live life, Is it to code all day and sleep all night, or to sleep all day and code all night?
-
-
